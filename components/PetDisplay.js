@@ -5,7 +5,7 @@ export default function PetDisplay({ state }) {
   const display =
     state === PET_STATES.SLEEPING ? (
       <Image
-        src="/sleeping-puppy.png"
+        src="/sleeping-puppy-no-bg.png"
         alt="Sleeping Puppy"
         width={64}
         height={64}
